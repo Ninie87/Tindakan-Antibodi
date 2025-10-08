@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Antibody Action - Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Antibody Action</h1>
+    <p>Welcome! Play the short game and complete a 5-question quiz to test your knowledge.</p>
+
+    <div id="game-area">
+      <canvas id="battle" width="600" height="300"></canvas>
+      <div id="status">Click <button id="startBtn">Start Battle</button> to begin!</div>
+    </div>
+
+    <div id="quiz" class="hidden">
+      <h2>Kuiz (5 soalan)</h2>
+      <form id="quizForm">
+        <!-- Questions inserted by script -->
+      </form>
+      <button id="submitQuiz">Hantar Jawapan</button>
+      <div id="quizResult"></div>
+    </div>
+
+    <div id="scoreboard" class="hidden">
+      <h3>Keputusan</h3>
+      <p id="finalScore"></p>
+    </div>
+
+    <footer>
+      <p>Built for SMK Ahmad Boestamam - Penyelidik: Nursyazwani binti Shawal</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

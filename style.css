@@ -1,0 +1,12 @@
+
+/* Simple game-like styling (gameful, bright) */
+body { font-family: Arial, sans-serif; background: linear-gradient(180deg,#0b132b,#1f4287); color: white; margin:0; padding:0;}
+.container { max-width:900px; margin:30px auto; padding:20px; background: rgba(255,255,255,0.04); border-radius:12px; box-shadow: 0 6px 20px rgba(0,0,0,0.4);}
+h1 { text-align:center; font-size:28px; margin-bottom:5px;}
+#battle { background: #f0f0f0; display:block; margin:10px auto; border-radius:8px; }
+#status { text-align:center; margin-top:10px;}
+.hidden { display:none; }
+button { cursor:pointer; padding:8px 12px; border-radius:6px; border:none; font-weight:bold;}
+#startBtn { background: #ffd166; color:#000; }
+#submitQuiz { background: #06d6a0; color:#06283d; margin-top:10px; }
+footer { text-align:center; margin-top:18px; font-size:13px; color:#cfe3ff; }
